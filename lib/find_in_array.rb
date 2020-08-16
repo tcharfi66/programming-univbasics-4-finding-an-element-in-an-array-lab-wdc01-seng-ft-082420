@@ -11,7 +11,8 @@ def find_element_index(array, value_to_find)
     ctr+=1
   end
   
-   binding.pry
-  return nil
+   if ctr > array.length
+     return nil
+   end
   
 end
