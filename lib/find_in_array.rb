@@ -4,7 +4,7 @@ def find_element_index(array, value_to_find)
   ctr = 0
 
   while ctr < array.length do
-    binding.pry
+   
     if array[ctr] == value_to_find
         return ctr
     end
